@@ -66,9 +66,9 @@ export function ContactsPage() {
         <p className="max-w-md text-[15px] leading-7 text-[#8f99a3]">{t("intro")}</p>
       </div>
 
-      <div className="mt-10 grid gap-4 lg:grid-cols-2 lg:items-stretch lg:gap-6">
-        <div className="flex flex-col gap-4 max-lg:contents lg:h-full lg:gap-6">
-        <article className="order-1 shrink-0 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-6">
+      <div className="mt-10 grid gap-4 lg:grid-cols-2 lg:items-start lg:gap-6">
+        <div className="flex flex-col gap-4 max-lg:contents lg:gap-6">
+        <article className="order-1 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-6">
           <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
             {t("salesTitle")}
           </h2>
@@ -96,7 +96,7 @@ export function ContactsPage() {
           </ul>
         </article>
 
-        <div className="relative order-4 min-h-0 overflow-hidden rounded-[10px] border border-white/[0.08] bg-[#0c1218] lg:flex-1">
+        <div className="relative order-4 min-h-0 overflow-hidden rounded-[10px] border border-white/[0.08] bg-[#0c1218]">
           <div className="pointer-events-none absolute inset-0">
             <Image
               src="/hero-copper-plates.png"
@@ -108,7 +108,7 @@ export function ContactsPage() {
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,#0c1218_0%,rgb(12_18_24_/_0.82)_42%,rgb(12_18_24_/_0.35)_100%)] lg:bg-[linear-gradient(to_right,#0c1218_0%,#0c1218_42%,rgb(12_18_24_/_0.55)_70%,transparent_92%)]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0c1218]/50 via-transparent to-[#0c1218]/20 lg:from-transparent" />
           </div>
-          <div className="relative z-10 px-6 py-5 sm:px-7 sm:py-5">
+          <div className="relative z-10 px-6 py-5 pb-[44px] sm:px-7 sm:py-5 sm:pb-[44px]">
             <p className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
               {t("bannerTitle")}
             </p>
@@ -117,52 +117,52 @@ export function ContactsPage() {
         </div>
         </div>
 
-        <div className="flex flex-col gap-4 max-lg:contents lg:h-full lg:gap-4">
-        <article className="order-2 shrink-0 rounded-[10px] border border-white/[0.08] bg-[#0c1218] px-6 py-5">
-            <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
-              {t("officeTitle")}
-            </h2>
-            <ul className="mt-4">
-              {EMAILS.map((item) => (
-                <li
-                  key={item.email}
-                  className="flex items-center gap-2.5 border-b border-white/[0.07] py-2.5"
-                >
-                  <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-copper/50 text-copper">
-                    <Mail className="size-3.5" />
-                  </span>
-                  <a
-                    href={`mailto:${item.email}`}
-                    className="shrink-0 text-[14px] text-white transition-colors duration-200 hover:text-copper"
-                  >
-                    {item.email}
-                  </a>
-                  <p className="min-w-0 truncate text-[13px] text-[#8f99a3]">{t(`roles.${item.role}`)}</p>
-                </li>
-              ))}
-            </ul>
-          </article>
-
-        <article className="order-3 flex min-h-0 flex-col rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-5 lg:flex-1">
-            <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
-              {t("formTitle")}
-            </h2>
-            <p className="mt-1 text-[13px] text-[#8f99a3]">{t("formSub")}</p>
-            <form className="mt-4 grid flex-1 grid-rows-[auto_1fr_auto] gap-2.5" onSubmit={onSubmit}>
-              <div className="grid gap-2.5 sm:grid-cols-2">
-                <input name="name" required placeholder={t("name")} className="h-10 rounded-[4px] border border-white/10 bg-[#070d13] px-3 text-[14px] text-white outline-none focus:border-copper" />
-                <input name="phone" required placeholder={t("phone")} className="h-10 rounded-[4px] border border-white/10 bg-[#070d13] px-3 text-[14px] text-white outline-none focus:border-copper" />
-              </div>
-              <textarea name="message" required rows={3} placeholder={t("message")} className="h-full min-h-[84px] w-full resize-none rounded-[4px] border border-white/10 bg-[#070d13] px-3 py-2.5 text-[14px] text-white outline-none focus:border-copper" />
-              <button
-                disabled={sending}
-                className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-[4px] bg-[linear-gradient(90deg,#a0562e_0%,#c77a45_50%,#d9965c_100%)] text-[14px] font-semibold text-white disabled:opacity-60"
+        <div className="flex flex-col gap-4 max-lg:contents lg:gap-4">
+        <article className="order-2 rounded-[10px] border border-white/[0.08] bg-[#0c1218] px-6 py-5">
+          <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
+            {t("officeTitle")}
+          </h2>
+          <ul className="mt-4">
+            {EMAILS.map((item) => (
+              <li
+                key={item.email}
+                className="flex items-center gap-2.5 border-b border-white/[0.07] py-2.5"
               >
-                {t("send")}
-                <Send className="size-4" />
-              </button>
-            </form>
-          </article>
+                <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-copper/50 text-copper">
+                  <Mail className="size-3.5" />
+                </span>
+                <a
+                  href={`mailto:${item.email}`}
+                  className="shrink-0 text-[14px] text-white transition-colors duration-200 hover:text-copper"
+                >
+                  {item.email}
+                </a>
+                <p className="min-w-0 truncate text-[13px] text-[#8f99a3]">{t(`roles.${item.role}`)}</p>
+              </li>
+            ))}
+          </ul>
+        </article>
+
+        <article className="order-3 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-5">
+          <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
+            {t("formTitle")}
+          </h2>
+          <p className="mt-1 text-[13px] text-[#8f99a3]">{t("formSub")}</p>
+          <form className="mt-4 grid gap-2.5" onSubmit={onSubmit}>
+            <div className="grid gap-2.5 sm:grid-cols-2">
+              <input name="name" required placeholder={t("name")} className="h-10 rounded-[4px] border border-white/10 bg-[#070d13] px-3 text-[14px] text-white outline-none focus:border-copper" />
+              <input name="phone" required placeholder={t("phone")} className="h-10 rounded-[4px] border border-white/10 bg-[#070d13] px-3 text-[14px] text-white outline-none focus:border-copper" />
+            </div>
+            <textarea name="message" required rows={3} placeholder={t("message")} className="resize-none rounded-[4px] border border-white/10 bg-[#070d13] px-3 py-2.5 text-[14px] text-white outline-none focus:border-copper" />
+            <button
+              disabled={sending}
+              className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-[4px] bg-[linear-gradient(90deg,#a0562e_0%,#c77a45_50%,#d9965c_100%)] text-[14px] font-semibold text-white disabled:opacity-60"
+            >
+              {t("send")}
+              <Send className="size-4" />
+            </button>
+          </form>
+        </article>
         </div>
       </div>
       </div>
