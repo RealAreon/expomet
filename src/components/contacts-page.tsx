@@ -66,9 +66,9 @@ export function ContactsPage() {
         <p className="max-w-md text-[15px] leading-7 text-[#8f99a3]">{t("intro")}</p>
       </div>
 
-      <div className="mt-10 grid gap-4 lg:grid-cols-2 lg:items-start lg:gap-6">
+      <div className="mt-10 grid min-w-0 gap-4 lg:grid-cols-2 lg:items-start lg:gap-6">
         <div className="flex flex-col gap-4 max-lg:contents lg:gap-6">
-        <article className="order-1 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-6">
+        <article className="order-1 min-w-0 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-5 sm:p-6">
           <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
             {t("salesTitle")}
           </h2>
@@ -96,7 +96,7 @@ export function ContactsPage() {
           </ul>
         </article>
 
-        <div className="relative order-4 min-h-0 overflow-hidden rounded-[10px] border border-white/[0.08] bg-[#0c1218]">
+        <div className="relative order-4 min-w-0 overflow-hidden rounded-[10px] border border-white/[0.08] bg-[#0c1218]">
           <div className="pointer-events-none absolute inset-0">
             <Image
               src="/hero-copper-plates.png"
@@ -108,17 +108,19 @@ export function ContactsPage() {
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,#0c1218_0%,rgb(12_18_24_/_0.82)_42%,rgb(12_18_24_/_0.35)_100%)] lg:bg-[linear-gradient(to_right,#0c1218_0%,#0c1218_42%,rgb(12_18_24_/_0.55)_70%,transparent_92%)]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0c1218]/50 via-transparent to-[#0c1218]/20 lg:from-transparent" />
           </div>
-          <div className="relative z-10 px-6 py-5 pb-[44px] sm:px-7 sm:py-5 sm:pb-[44px]">
-            <p className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
+          <div className="relative z-10 px-5 py-5 sm:px-7 lg:pb-[44px]">
+            <p className="text-[11px] font-semibold tracking-[0.12em] text-copper uppercase sm:text-[12px] sm:tracking-[0.18em]">
               {t("bannerTitle")}
             </p>
-            <p className="mt-2 max-w-md text-[14px] leading-6 text-white/90">{t("bannerText")}</p>
+            <p className="mt-2 text-[14px] leading-6 text-pretty text-white/90">
+              {t("bannerText")}
+            </p>
           </div>
         </div>
         </div>
 
         <div className="flex flex-col gap-4 max-lg:contents lg:gap-4">
-        <article className="order-2 rounded-[10px] border border-white/[0.08] bg-[#0c1218] px-6 py-5">
+        <article className="order-2 min-w-0 rounded-[10px] border border-white/[0.08] bg-[#0c1218] px-5 py-5 sm:px-6">
           <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
             {t("officeTitle")}
           </h2>
@@ -126,24 +128,28 @@ export function ContactsPage() {
             {EMAILS.map((item) => (
               <li
                 key={item.email}
-                className="flex items-center gap-2.5 border-b border-white/[0.07] py-2.5"
+                className="flex min-w-0 flex-col gap-1 border-b border-white/[0.07] py-2.5 sm:flex-row sm:items-center sm:gap-2.5"
               >
-                <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-copper/50 text-copper">
-                  <Mail className="size-3.5" />
-                </span>
-                <a
-                  href={`mailto:${item.email}`}
-                  className="shrink-0 text-[14px] text-white transition-colors duration-200 hover:text-copper"
-                >
-                  {item.email}
-                </a>
-                <p className="min-w-0 truncate text-[13px] text-[#8f99a3]">{t(`roles.${item.role}`)}</p>
+                <div className="flex min-w-0 items-center gap-2.5">
+                  <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-copper/50 text-copper">
+                    <Mail className="size-3.5" />
+                  </span>
+                  <a
+                    href={`mailto:${item.email}`}
+                    className="min-w-0 break-all text-[13px] text-white transition-colors duration-200 hover:text-copper sm:text-[14px]"
+                  >
+                    {item.email}
+                  </a>
+                </div>
+                <p className="min-w-0 pl-[42px] text-[13px] text-[#8f99a3] sm:truncate sm:pl-0">
+                  {t(`roles.${item.role}`)}
+                </p>
               </li>
             ))}
           </ul>
         </article>
 
-        <article className="order-3 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-5">
+        <article className="order-3 min-w-0 rounded-[10px] border border-white/[0.08] bg-[#0c1218] p-5">
           <h2 className="text-[12px] font-semibold tracking-[0.18em] text-copper uppercase">
             {t("formTitle")}
           </h2>
