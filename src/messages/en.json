@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "title": "EXPOMET — Non-Ferrous Metals",
+    "description": "Expomet is a trusted B2B partner in the supply of non-ferrous metals and industrial solutions worldwide."
+  },
+  "header": {
+    "tagline": "NON-FERROUS METALS",
+    "nav": {
+      "catalog": "Catalog",
+      "calculator": "Calculator",
+      "services": "Services",
+      "contacts": "Contacts"
+    },
+    "cta": "Request a Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Global supplier of non-ferrous metals",
+    "titleLine1": "Materials that",
+    "titleLine2": "Build the Future",
+    "description": "Expomet is a trusted B2B partner in the supply of non-ferrous metals and industrial solutions worldwide.",
+    "primaryCta": "View Catalog",
+    "secondaryCta": "Calculate Order",
+    "imageAlt": "Stacked premium copper and bronze metal plates",
+    "trust": {
+      "qualityLine1": "Premium",
+      "qualityLine2": "Quality",
+      "standardsLine1": "Industry",
+      "standardsLine2": "Standards",
+      "deliveryLine1": "Worldwide",
+      "deliveryLine2": "Delivery"
+    }
+  },
+  "categories": {
+    "eyebrow": "Our Categories",
+    "titleLine1": "High-Quality",
+    "titleLine2": "Non-Ferrous Metals",
+    "description": "We supply a wide range of non-ferrous metals and products to meet the needs of modern industries and engineering solutions.",
+    "items": {
+      "aluminum": "Aluminum",
+      "brass": "Brass",
+      "copper": "Copper",
+      "bronze": "Bronze",
+      "lead": "Lead",
+      "solder": "Solder",
+      "nichrome": "Nichrome / Fechral",
+      "motors": "Electric Motors"
+    }
+  },
+  "about": {
+    "eyebrow": "About the company",
+    "title": "More about us",
+    "paragraph1": "Expomet is a leading supplier of aluminum, brass, copper, electric motors, bronze and their alloys.",
+    "paragraph2": "We supply more than a thousand companies with high-quality products from modern, technological warehouses, guaranteeing reliability, stability and long-term partnership.",
+    "cta": "Learn more about the company",
+    "imageAlt": "Copper tubes, brass square bars and stainless steel profiles",
+    "stat": {
+      "value": "400+",
+      "unit": "Tons",
+      "title": "Permanent warehouse reserves",
+      "text": "The largest stock of quality non-ferrous rolled metal, permanently maintained in our warehouses."
+    },
+    "cards": {
+      "certified": {
+        "title": "Certified",
+        "text": "All products come with manufacturer certificates and comply with international quality standards."
+      },
+      "team": {
+        "title": "Logistics and staff",
+        "text": "An experienced team of professionals and well-tuned logistics ensure fast delivery and a high level of service."
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Why choose us",
+    "title": "Advantages of working with us",
+    "cards": {
+      "speed": {
+        "title": "Work speed",
+        "text": "We are committed to operational speed, fast order processing and product delivery."
+      },
+      "warranty": {
+        "title": "Warranty",
+        "text": "Our goal is to make you fully confident with clear and reliable guarantees."
+      },
+      "quality": {
+        "title": "Quality",
+        "text": "A constant drive for high quality, backed by manufacturer certificates."
+      },
+      "range": {
+        "title": "Wide range",
+        "text": "A wide selection of rolled metal products and electric motors."
+      }
+    }
+  },
+  "footer": {
+    "description": "Expomet is your trusted global partner in the supply of high-quality non-ferrous metals and industrial solutions.",
+    "slogan": "Materials that build the future.",
+    "navigation": "Navigation",
+    "products": "Products",
+    "contactTrust": "Contact & Trust",
+    "hours": "Mon – Fri: 9:00 – 18:00 EEST",
+    "reply": "We reply within 24 hours",
+    "isoTitle": "ISO Certified",
+    "isoText": "Guaranteed Quality ISO 9001:2015",
+    "copyright": "© 2024 Expomet Plus. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie files",
+    "nav": {
+      "catalog": "Catalog",
+      "services": "Services",
+      "about": "About Us",
+      "quality": "Quality Control",
+      "delivery": "Delivery",
+      "contacts": "Contacts"
+    },
+    "productItems": {
+      "aluminum": "Aluminum",
+      "brass": "Brass",
+      "copper": "Copper",
+      "bronze": "Bronze"
+    }
+  },
+  "catalog": {
+    "eyebrow": "Catalog",
+    "crumbHome": "Home",
+    "crumb": "Catalog",
+    "title": "Product Catalog",
+    "subtitle": "Explore our wide range of non-ferrous metals and industrial products.",
+    "filters": "Filters",
+    "materialType": "Material type",
+    "alloyGrade": "Alloy grade",
+    "selectGrade": "Select alloy grade",
+    "priceRange": "Price range (UAH / kg)",
+    "from": "From",
+    "to": "To",
+    "inStock": "In stock only",
+    "inStockHint": "Show products available",
+    "clear": "Clear all filters",
+    "search": "Search products, grades, dimensions...",
+    "sortPopularity": "Sort by: Popularity",
+    "sortName": "Sort by: Name",
+    "showing": "Showing {from}–{to} of {total} products",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "pagination": "Catalog pagination",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "thickness": "Thickness",
+    "width": "Width",
+    "details": "Details",
+    "close": "Close",
+    "parameters": "Parameters",
+    "request": "Request a Quote",
+    "calculate": "Calculate",
+    "info": {
+      "paymentTitle": "Payment",
+      "paymentText": "Bank transfer",
+      "deliveryTitle": "Delivery",
+      "deliveryText": "Courier, pickup, road freight, Nova Poshta, Night Express, SAT",
+      "packagingTitle": "Packaging",
+      "packagingText": "Standard, safe for transportation"
+    },
+    "trust": {
+      "stock": "Permanent warehouse stock",
+      "cutting": "Cutting to size",
+      "certificates": "Mill certificates",
+      "delivery": "Delivery in 1–3 days",
+      "support": "Personal manager"
+    }
+  },
+  "services": {
+    "crumbHome": "Home",
+    "crumb": "Services",
+    "eyebrow": "Precision. Quality. Technologies.",
+    "title": "Waterjet cutting services from Expomet",
+    "intro": "Modern equipment and high-precision cutting without thermal deformation of the metal.",
+    "order": "Order a service",
+    "contact": "Contact us",
+    "heroAlt": "Industrial waterjet cutting of metal",
+    "benefits": {
+      "precision": "High precision ±0.1 mm",
+      "thermal": "No thermal impact",
+      "speed": "Fast order fulfillment",
+      "quality": "Quality guarantee"
+    },
+    "cards": {
+      "cutting": {
+        "title": "Metal cutting",
+        "text": "Waterjet cutting of sheets, plates and profiles to drawing — clean edges without a heat-affected zone."
+      },
+      "sales": {
+        "title": "Sales",
+        "text": "Warehouse supply of aluminum, copper, brass, bronze and related non-ferrous products."
+      },
+      "motors": {
+        "title": "Electric motor sales",
+        "text": "Industrial electric motors supplied to specification, with certificates and delivery."
+      }
+    },
+    "features": {
+      "jet": {
+        "title": "Water jet technology",
+        "text": "A high-pressure abrasive jet cuts metal without overheating the material."
+      },
+      "materials": {
+        "title": "We work with various materials",
+        "text": "Aluminum, copper, brass, bronze, steel and composites — to your specification."
+      },
+      "standards": {
+        "title": "European quality standards",
+        "text": "Process control and mill certificates with every completed order."
+      },
+      "turnaround": {
+        "title": "Prompt fulfillment",
+        "text": "Fast production slots and clear lead times from request to shipment."
+      },
+      "support": {
+        "title": "Professional support",
+        "text": "Engineers help with grades, sizes and cutting parameters for your project."
+      }
+    }
+  },
+  "calculator": {
+    "crumbHome": "Home",
+    "crumb": "Weight calculator",
+    "title": "Weight calculator",
+    "subtitle": "Fast and accurate calculation of rolled metal weight by your parameters.",
+    "history": "Calculation history",
+    "historyEmpty": "No calculations yet.",
+    "clearHistory": "Clear history",
+    "metal": "Metal",
+    "shape": "Product range",
+    "heading": "Weight calculation of",
+    "headingLength": "Length calculation of",
+    "productHighlight": "aluminum sheet",
+    "grade": "Aluminum grade",
+    "thickness": "Sheet thickness (t)",
+    "width": "Sheet width (a)",
+    "length": "Sheet length (b)",
+    "qty": "Quantity (pcs)",
+    "enterT": "Enter thickness",
+    "enterA": "Enter width",
+    "enterB": "Enter length",
+    "enterValue": "Enter value",
+    "mm": "mm",
+    "calculate": "Calculate",
+    "calculatePrice": "Calculate price",
+    "pricePerKg": "× Average price per kg",
+    "totalCost": "= Total cost",
+    "area": "Area",
+    "weight": "Weight",
+    "resultLength": "Length",
+    "invalidData": "Check the entered data",
+    "disclaimer": "Results are approximate and intended for preliminary estimation.",
+    "calcType": {
+      "weight": "Weight calculation",
+      "length": "Length calculation"
+    },
+    "gradeTitles": {
+      "ferrous": "Steel grade",
+      "stainless": "Steel grade",
+      "aluminum": "Aluminum grade",
+      "copper": "Copper grade",
+      "brass": "Brass grade",
+      "bronze": "Bronze grade",
+      "titanium": "Titanium grade"
+    },
+    "sortaments": {
+      "armature": "Rebar",
+      "balk": "Beam / I-beam",
+      "square": "Square",
+      "circle": "Round / bar",
+      "ribbon": "Strip",
+      "list": "Sheet / plate",
+      "branch": "Elbow",
+      "pipeCircle": "Round tube",
+      "pipeProf": "Profile tube",
+      "corner": "Angle",
+      "flange": "Flat flange",
+      "channel": "Channel",
+      "hexahedron": "Hexagon"
+    },
+    "fields": {
+      "square": {
+        "a": "Square side (a)"
+      },
+      "circle": {
+        "d": "Bar diameter (D)"
+      },
+      "ribbon": {
+        "a": "Strip width (a)",
+        "t": "Strip thickness (t)",
+        "b": "Length (L)"
+      },
+      "list": {
+        "t": "Sheet thickness (t)",
+        "a": "Sheet width (a)",
+        "b": "Sheet length (b)"
+      },
+      "pipeCircle": {
+        "d": "Outer diameter (D)",
+        "t": "Wall thickness (t)"
+      },
+      "pipeProf": {
+        "a": "Tube width (a)",
+        "b": "Tube height (b)",
+        "t": "Wall thickness (t)"
+      },
+      "corner": {
+        "a": "Angle width (a)",
+        "b": "Angle height (b)",
+        "t": "Leg thickness (t)"
+      },
+      "hexahedron": {
+        "a": "Hexagon size (a)"
+      },
+      "l": "Length (L)",
+      "M": "Weight",
+      "n": "Quantity (pcs)"
+    },
+    "armDiameter": "Nominal diameter",
+    "balkType": "Beam type",
+    "balkNumber": "Beam number",
+    "channelNumber": "Channel number",
+    "branchType": "Type",
+    "branchSize": "Size",
+    "flangePressure": "Pressure",
+    "flangeDy": "Nominal diameter (DN)",
+    "units": {
+      "mm": "mm",
+      "m": "m",
+      "kg": "kg",
+      "pcs": "pcs",
+      "m2": "m²",
+      "currency": "UAH",
+      "perKg": "UAH/kg"
+    },
+    "balkTypes": {
+      "1": "GOST 8239-89",
+      "2": "Normal I-beam (B)",
+      "3": "Wide-flange I-beam (W)",
+      "4": "Column I-beam (K)",
+      "5": "Additional series I-beam (D)",
+      "6": "Welded I-beam (S)"
+    },
+    "branchTypes": {
+      "1": "Type 1",
+      "2": "Type 2"
+    },
+    "flangeTypes": {
+      "1": "PN 6",
+      "2": "PN 10",
+      "3": "PN 16",
+      "4": "PN 25"
+    },
+    "trust": {
+      "accuracy": "High calculation accuracy",
+      "density": "Material density included",
+      "metals": "Suitable for all metal types",
+      "history": "Calculation history saved",
+      "pdf": "PDF export on request"
+    },
+    "metals": {
+      "ferrous": "Ferrous metal",
+      "stainless": "Stainless steel",
+      "aluminum": "Aluminum",
+      "copper": "Copper",
+      "brass": "Brass",
+      "bronze": "Bronze",
+      "titanium": "Titanium"
+    },
+    "shapes": {
+      "square": "Square",
+      "round": "Round / bar",
+      "strip": "Strip",
+      "sheet": "Sheet / plate",
+      "tube-round": "Round tube",
+      "tube-profile": "Profile tube",
+      "angle": "Angle",
+      "hex": "Hexagon"
+    }
+  },
+  "contacts": {
+    "crumbHome": "Home",
+    "crumb": "Contacts",
+    "title": "Contact Us",
+    "intro": "Our team is ready to provide professional support and find the best solution for your business.",
+    "salesTitle": "Sales team / Managers",
+    "salesSub": "Get in touch with our team",
+    "roles": {
+      "management": "Management",
+      "cutting": "Regarding cutting (Management)",
+      "general": "General",
+      "accounting": "Accounting"
+    },
+    "officeTitle": "General & Office",
+    "mainEmail": "Main Email",
+    "backupEmail": "Backup Email",
+    "formTitle": "Send us a message",
+    "formSub": "We'll get back to you as soon as possible",
+    "name": "Your Name",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send a Message",
+    "sent": "Message sent. We will contact you shortly.",
+    "bannerTitle": "We value long-term partnerships",
+    "bannerText": "Stable supply, verified quality and personal support for every order."
+  },
+  "legal": {
+    "crumbHome": "Home",
+    "toCookies": "Cookie files",
+    "toPrivacy": "Privacy Policy"
+  },
+  "cookieBanner": {
+    "title": "We use cookies",
+    "text": "Necessary cookies keep the site working. Optional cookies (technical, analytics, functional and advertising) are used only with your consent. You can accept all, keep necessary only, or choose categories.",
+    "privacyLink": "Privacy Policy",
+    "cookiesLink": "Cookie files",
+    "acceptAll": "Accept all",
+    "reject": "Necessary only",
+    "customize": "Customize",
+    "save": "Save choices",
+    "manage": "Manage cookies",
+    "close": "Close",
+    "settingsTitle": "Cookie settings",
+    "settingsText": "Choose which categories we may use. Necessary cookies cannot be turned off. Your choice is stored for 12 months and can be changed at any time.",
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "text": "Required to browse the site, keep your cookie choice and use core functions. These cannot be refused."
+      },
+      "technical": {
+        "title": "Technical",
+        "text": "Anonymous information about how you use the site, including errors and the pages you visit most often."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "text": "Google Analytics and similar tools to understand traffic. Scripts load only after you allow this category."
+      },
+      "functional": {
+        "title": "Functional",
+        "text": "Remember preferences such as language and calculator history on this device."
+      },
+      "marketing": {
+        "title": "Advertising",
+        "text": "Targeted advertising cookies from us or third parties. Off by default until you opt in."
+      }
+    }
+  }
+}
