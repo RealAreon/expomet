@@ -99,8 +99,8 @@ export async function SiteFooter() {
               <Phone className="size-4" strokeWidth={1.7} />
             </span>
             <div>
-              <a href="tel:+380504090707" className="text-[15px] text-white">
-                +380 50 409 07 07
+              <a href="tel:+380504096161" className="text-[15px] text-white">
+                050-409-6161
               </a>
               <p className="mt-0.5 text-[12px] text-[#8f99a3]">{t("hours")}</p>
             </div>
@@ -111,8 +111,8 @@ export async function SiteFooter() {
               <Mail className="size-4" strokeWidth={1.7} />
             </span>
             <div>
-              <a href="mailto:info@expomet.ua" className="text-[15px] text-white">
-                info@expomet.ua
+              <a href="mailto:expomet@ukr.net" className="text-[15px] text-white">
+                expomet@ukr.net
               </a>
               <p className="mt-0.5 text-[12px] text-[#8f99a3]">{t("reply")}</p>
             </div>

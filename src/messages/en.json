@@ -393,11 +393,10 @@
       "management": "Management",
       "cutting": "Regarding cutting (Management)",
       "general": "General",
+      "generalMail": "General",
       "accounting": "Accounting"
     },
     "officeTitle": "General & Office",
-    "mainEmail": "Main Email",
-    "backupEmail": "Backup Email",
     "formTitle": "Send us a message",
     "formSub": "We'll get back to you as soon as possible",
     "name": "Your Name",
